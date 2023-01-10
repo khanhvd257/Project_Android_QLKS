@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Chức Năng">
+        <menu>
+            <item
+                android:id="@+id/themds"
+                android:icon="@drawable/plusvector"
+                android:title="Thêm Danh Sách"></item>
+            <item
+                android:id="@+id/xemds"
+                android:icon="@drawable/eyevector"
+                android:title="Xem Danh Sách"></item>
+            <item
+                android:id="@+id/quanlysinhvien"
+                android:icon="@drawable/managervector"
+                android:title="Quản Lý Sinh Viên"></item>
+        </menu>
+
+    </item>
+    <item android:title="Thông Tin">
+        <menu>
+            <item
+                android:id="@+id/aboutapp"
+                android:icon="@drawable/author"
+                android:title="TaSonDeepTry"></item>
+            <item
+                android:id="@+id/lienhe"
+                android:icon="@drawable/send"
+                android:title="Liên Hệ Nhóm 3"></item>
+        </menu>
+
+
+    </item>
+</menu>

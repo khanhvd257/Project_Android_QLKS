@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b_g"
+    tools:context=".Activity.MainActivity"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Quản Lý Khách Sạn"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnxem"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Quản Lý Khách hàng"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <Button
+
+            android:id="@+id/btnthem"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Quản Lý Nhân Viên"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnqualy"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Quản Lý Dịch Vụ"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        app:headerLayout="@layout/headermenu"
+        app:itemIconTint="@color/purple_200"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/drawer"/>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_khoiDong.xml" value="0.19384057971014493" />
+        <entry key="app/src/main/res/layout/activity_khoidong.xml" value="0.1571685791015625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3257680699445199" />
+        <entry key="app/src/main/res/layout/activity_menuchinh.xml" value="0.2444799229718637" />
+        <entry key="app/src/main/res/layout/frm_login.xml" value="0.2143371582031251" />
+        <entry key="app/src/main/res/layout/frm_register.xml" value="0.3081777379132699" />
+        <entry key="app/src/main/res/layout/headermenu.xml" value="0.19384057971014493" />
+        <entry key="app/src/main/res/menu/drawer.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
